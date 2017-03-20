@@ -20,6 +20,50 @@ body {
 /* -------------html och body slut------ */
 
 
+/* ---------------burger------------- */
+
+.burger {
+    position: fixed;
+    background-color: #303030;
+    width: 80%;
+    height: 100%;
+    z-index: 3;
+    -webkit-box-shadow: 10px 10px 70px 17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 70px 17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 70px 17px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+/* ----------------burger slut----------- */
+
+
 /* -----------naven-------------------- */
 
 nav {
@@ -72,8 +116,8 @@ article {
     margin-top: 10px;
 }
 
-#top{
-  margin-top: 0;
+#top {
+    margin-top: 0;
 }
 
 .left {
@@ -83,9 +127,9 @@ article {
 }
 
 .right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
 }
 
@@ -99,11 +143,22 @@ article {
     flex-direction: row;
     flex-grow: 1;
 }
+
+.img_article {
+    margin: 10px;
+}
+
+#bot {
+    margin-bottom: 20px;
+}
+
+
 /* -----------javascrips toggels----------- */
 
-.colorToggle{
-  color:rgb(3, 208, 255);
+.colorToggle {
+    color: rgb(3, 208, 255);
 }
+
 
 /* -------------mobil och dator-------------- */
 

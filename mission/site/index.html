@@ -8,16 +8,32 @@
     <link href="./css/main.css" rel="stylesheet" />
     <link rel="shortcut icon" href="" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
     <div class="burger">
-      <a href="./index.html" class="button">Start</a>
-      <a href="./fragrances.html" class="button">My Fragrances</a>
-      <a href="./download.html" class="button">Download</a>
-      <a href="./favorites.html" class="button">Favorites</a>
-      <a href="./settings.html" class="button">Settings</a>
-      <a href="./about.html" class="button">About Us</a>
+        <div class="close_burger">
+            <i class="material-icons">close</i>
+        </div>
+        <div class="content_burger">
+            <ul>
+                <li><i class="material-icons">home</i>
+                    <a href="./index.html">Start</a></li>
+                <li><i class="material-icons">spa</i>
+                    <a href="./fragrances.html">My Fragrances</a></li>
+                <li><i class="material-icons">file_download</i>
+                    <a href="./download.html">Download</a></li>
+                <li><i class="material-icons">favorite</i>
+                    <a href="./favorites.html">Favorites</a></li>
+                <li><i class="material-icons">settings</i>
+                    <a href="./settings.html">Settings</a></li>
+                <li><i class="material-icons">people</i>
+                    <a href="./about.html">About Us</a></li>
+                <li><i class="material-icons">help</i>
+                    <a href="./about.html">Help & Feedback</a></li>
+            </ul>
+        </div>
     </div>
     <nav>
         <img src="./img/ic_menu_white_48px.svg" alt="Meny" class="hmeny">
@@ -30,15 +46,15 @@
                     <div class="upper">
                         <h1>Flowers</h1>
                         <p>
-                            Flowers that smells nice :) YES
+                            Flowers that smell nice :) YES
                         </p>
                     </div>
                     <div class="lower">
                         <div class="lower_left">
-                            <p onclick="colorToggle(this)">Like</p>
+                            <p id="likeButtonFlower" onclick="toggleLike(this)">Like</p>
                         </div>
                         <div class="lower_right">
-                            <p onclick="colorToggle(this)">Dislike</p>
+                            <p id="dislikeButtonFlower" onclick="toggleDislike(this)">Dislike</p>
                         </div>
                     </div>
                 </div>
@@ -55,10 +71,10 @@
                     </div>
                     <div class="lower">
                         <div class="lower_left">
-                            <p onclick="colorToggle(this)">Like</p>
+                            <p id="likeButtonBacon" onclick="toggleLike(this)">Like</p>
                         </div>
                         <div class="lower_right">
-                            <p onclick="colorToggle(this)">Dislike</p>
+                            <p id="dislikeButtonBacon" onclick="toggleDislike(this)">Dislike</p>
                         </div>
                     </div>
                 </div>
@@ -75,10 +91,10 @@
                     </div>
                     <div class="lower">
                         <div class="lower_left">
-                            <p onclick="colorToggle(this)">Like</p>
+                            <p id="likeButtonSea" onclick="toggleLike(this)">Like</p>
                         </div>
                         <div class="lower_right">
-                            <p onclick="colorToggle(this)">Dislike</p>
+                            <p id="dislikeButtonSea" onclick="toggleDislike(this)">Dislike</p>
                         </div>
                     </div>
                 </div>
@@ -95,10 +111,10 @@
                     </div>
                     <div class="lower">
                         <div class="lower_left">
-                            <p onclick="colorToggle(this)">Like</p>
+                            <p id="likeButtonGas" onclick="toggleLike(this)">Like</p>
                         </div>
                         <div class="lower_right">
-                            <p onclick="colorToggle(this)">Dislike</p>
+                            <p id="dislikeButtonGas" onclick="toggleDislike(this)">Dislike</p>
                         </div>
                     </div>
                 </div>
@@ -115,10 +131,10 @@
                     </div>
                     <div class="lower">
                         <div class="lower_left">
-                            <p onclick="colorToggle(this)">Like</p>
+                            <p id="likeButtonTree" onclick="toggleLike(this)">Like</p>
                         </div>
                         <div class="lower_right">
-                            <p onclick="colorToggle(this)">Dislike</p>
+                            <p id="dislikeButtonTree" onclick="toggleDislike(this)">Dislike</p>
                         </div>
                     </div>
                 </div>

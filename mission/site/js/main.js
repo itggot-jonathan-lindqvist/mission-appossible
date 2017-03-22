@@ -1,17 +1,3 @@
-// function colorToggle() {
-//     element = document.querySelector(".lower_right");
-//     element.classList.toggle("colorToggle");
-// }
-//
-// function colorToggle2() {
-//     element = document.querySelector(".lower_left");
-//     element.classList.toggle("colorToggle");
-// }
-
-// function colorToggle(banan) {
-//     banan.classList.toggle("colorToggle");
-// }
-
 function toggleDislike(element) {
     var id = element.id;
     var test = id.substr(3, id.length)
@@ -29,9 +15,7 @@ function toggleLike(element) {
     dislikeButton.classList.remove("colorToggle")
 }
 
-// function reset(this){
-//   elements = document.querySelectorAll(".red");
-//   elements.forEach(function (element) {
-//     element.classList.remove("red");
-//   });
-// }
+function burgermenu() {
+    element = document.querySelector(".burger");
+    element.classList.toggle("burger-js");
+}

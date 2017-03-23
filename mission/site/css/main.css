@@ -22,7 +22,7 @@ a {
 }
 
 
-/* -------------html och body slut------ */
+/* -------------html and body end------ */
 
 
 /* ---------------burger------------- */
@@ -81,10 +81,10 @@ li {
 }
 
 
-/* ----------------burger slut----------- */
+/* ----------------burger end----------- */
 
 
-/* -----------naven-------------------- */
+/* -----------nav-------------------- */
 
 nav {
     position: fixed;
@@ -104,12 +104,10 @@ nav {
 }
 
 
-/* ------------naven slut--------------- */
+/* ------------naven end--------------- */
 
 
-/* -------------självaste innehållet--------- */
-
-body {}
+/* -------------content--------- */
 
 .outer {
     display: flex;
@@ -172,15 +170,18 @@ article {
     margin-bottom: 20px;
 }
 
+/* ------content end----------- */
 
-/* -----------javascrips toggle----------- */
+
+/* -----------javascript toggle----------- */
 
 .colorToggle {
     color: rgb(3, 208, 255);
 }
 
+/* --------------javascript toggle end--------*/
 
-/* -------------mobil och dator-------------- */
+/* -------------mobile and PC-------------- */
 
 @media all and (max-device-width:415px) {
     h1 {
@@ -198,4 +199,8 @@ article {
     }
 }
 
-@media all and (min-device-width:416px) {}
+@media all and (min-device-width:416px) {
+
+}
+
+/* ------------moble and PC end------------- */

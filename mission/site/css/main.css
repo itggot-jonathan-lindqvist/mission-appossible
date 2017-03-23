@@ -173,7 +173,7 @@ article {
 }
 
 
-/* -----------javascrips toggels----------- */
+/* -----------javascrips toggle----------- */
 
 .colorToggle {
     color: rgb(3, 208, 255);
@@ -182,7 +182,7 @@ article {
 
 /* -------------mobil och dator-------------- */
 
-@media all and (max-device-width:361px) {
+@media all and (max-device-width:415px) {
     h1 {
         color: white;
         font-size: 20px;
@@ -198,4 +198,4 @@ article {
     }
 }
 
-@media all and (min-device-width:362px) {}
+@media all and (min-device-width:416px) {}

@@ -189,6 +189,7 @@ article {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
 }
 
 menuitem {
@@ -225,6 +226,12 @@ section {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
+}
+
+.column_to_row{
+  display: flex;
+  flex-direction: row;
 }
 
 figure {
@@ -233,10 +240,21 @@ figure {
     background-color: #424242;
     color: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    margin-top: 10px;
-    width: 20%;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 33%;
 }
 
+.figure_img {
+    margin: 6px;
+    margin-bottom: 0;
+}
+
+#marginfix {
+    margin: 0;
+}
 
 /* ------content end----------- */
 
@@ -260,28 +278,45 @@ figure {
         margin-left: 10px;
         margin-right: 10px;
     }
+
     h2 {
         color: white;
         font-size: 16px;
         margin-left: 10px;
         margin-right: 10px;
     }
+
     h3 {
         color: rgb(202, 203, 202);
         font-size: 14px;
         margin-left: 10px;
         margin-right: 10px;
+      }
+
+    h4 {
+        color: rgb(202, 203, 202);
+        font-size: 14px;
+        margin-left: 10px;
+        position: fixed;
     }
+
     p {
         margin-left: 10px;
         margin-right: 10px;
     }
+
     aside {
         display: none;
     }
+
+    footer{
+      display: none;
+    }
+
     .nav_desktop {
         display: none;
     }
+
     .nav_mobile {
         display: flex;
         flex-direction: row;

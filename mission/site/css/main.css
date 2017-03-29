@@ -229,6 +229,11 @@ section {
     overflow-y: scroll;
 }
 
+section::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
 .column_to_row{
   display: flex;
   flex-direction: row;
@@ -243,7 +248,7 @@ figure {
     margin: 0;
     margin-top: 40px;
     margin-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 33%;
 }
 
@@ -287,7 +292,7 @@ figure {
     }
 
     h3 {
-        color: rgb(202, 203, 202);
+        color: white;
         font-size: 14px;
         margin-left: 10px;
         margin-right: 10px;

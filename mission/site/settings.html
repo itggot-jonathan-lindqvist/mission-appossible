@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>1337</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="burger">
+        <div class="close_burger">
+            <i class="material-icons" onclick="burgermenu()">close</i>
+        </div>
+        <div class="content_burger">
+            <ul>
+                <li><i class="material-icons">home</i>
+                    <a href="./index.html">Start</a></li>
+                <li><i class="material-icons">spa</i>
+                    <a href="./fragrances.html">My Fragrances</a></li>
+                <li><i class="material-icons">file_download</i>
+                    <a href="./download.html">Download</a></li>
+                <li><i class="material-icons">settings</i>
+                    <a href="./settings.html">Settings</a></li>
+                <li><i class="material-icons">people</i>
+                    <a href="./about.html">About Us</a></li>
+                <li><i class="material-icons">help</i>
+                    <a href="./feedback.html">Help & Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <div class="nav_mobile">
+            <img src="./img/ic_menu_white_48px.svg" alt="Meny" class="hmeny" onclick="burgermenu()">
+            <h1>Settings</h1>
+        </div>
+        <div class="nav_desktop">
+
+        </div>
+    </nav>
+    <div class="outer">
+        <main>
+
+            <form action="/action_page.php" method="get">
+                <h2>Setting1</h2>
+                <input type="range" name="setting" min="0" max="100">
+            </form>
+
+        </main>
+        <aside>
+
+        </aside>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>

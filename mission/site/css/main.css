@@ -229,14 +229,14 @@ section {
     overflow-y: scroll;
 }
 
-section::-webkit-scrollbar{
-  width: 0;
-  height: 0;
+section::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
-.column_to_row{
-  display: flex;
-  flex-direction: row;
+.column_to_row {
+    display: flex;
+    flex-direction: row;
 }
 
 figure {
@@ -261,6 +261,7 @@ figure {
     margin: 0;
 }
 
+
 /* ------content end----------- */
 
 
@@ -283,45 +284,37 @@ figure {
         margin-left: 10px;
         margin-right: 10px;
     }
-
     h2 {
         color: white;
         font-size: 16px;
         margin-left: 10px;
         margin-right: 10px;
     }
-
     h3 {
         color: white;
         font-size: 14px;
         margin-left: 10px;
         margin-right: 10px;
-      }
-
+    }
     h4 {
         color: rgb(202, 203, 202);
         font-size: 14px;
         margin-left: 10px;
         position: fixed;
     }
-
     p {
         margin-left: 10px;
         margin-right: 10px;
     }
-
     aside {
         display: none;
     }
-
-    footer{
-      display: none;
+    footer {
+        display: none;
     }
-
     .nav_desktop {
         display: none;
     }
-
     .nav_mobile {
         display: flex;
         flex-direction: row;

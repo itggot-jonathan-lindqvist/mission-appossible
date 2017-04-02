@@ -133,6 +133,13 @@ main {
     margin-right: 10px;
 }
 
+aside{
+  background-color: #424242;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 20px;
+  color: white;
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -261,6 +268,10 @@ figure {
     margin: 0;
 }
 
+form{
+  margin-top: 20px;
+}
+
 
 /* ------content end----------- */
 
@@ -305,6 +316,7 @@ figure {
     p {
         margin-left: 10px;
         margin-right: 10px;
+        color: white;
     }
     aside {
         display: none;
@@ -324,7 +336,9 @@ figure {
 
 @media all and (min-device-width:416px) {
     .nav_mobile {
-        display: none;
+        color: white;
+        display: flex;
+        flex-direction: row;
     }
 }
 

@@ -276,9 +276,9 @@ figure {
     margin: 0;
 }
 
-.settings{
-  display: flex;
-  flex-direction: column;
+.settings {
+    display: flex;
+    flex-direction: column;
 }
 
 form {
@@ -287,7 +287,6 @@ form {
     flex-direction: row;
     color: white;
 }
-
 
 footer {
     height: 40px;
@@ -319,9 +318,10 @@ footer {
     margin-right: 20px;
 }
 
-.footerfix{
-  position: relative;
+.footerfix {
+    position: relative;
 }
+
 
 /* ------content end----------- */
 
@@ -401,11 +401,9 @@ footer {
         display: flex;
         flex-direction: row;
     }
-
-    .nav_download_buttons{
-      display: none;
+    .nav_download_buttons {
+        display: none;
     }
-
     h1, h2, h3, h4, p, a {
         margin-left: 10px;
         margin-right: 10px;
@@ -413,10 +411,9 @@ footer {
     a {
         margin-bottom: 10px;
     }
-    h1,h4 {
+    h1, h4 {
         color: white;
     }
-
     main {
         flex-direction: row;
         flex-wrap: wrap;
@@ -428,22 +425,19 @@ footer {
         margin-left: 10px;
         height: 175px;
     }
-
-    figure{
-      margin-top: 0;
-      width: 112px;
-      height: 166px;
+    figure {
+        margin-top: 0;
+        width: 112px;
+        height: 166px;
     }
-
-    section{
-      width: 100%;
-      height: auto;
-      overflow: hidden;
+    section {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
     }
-
-    .column_to_row{
-      display: flex;
-      flex-wrap: wrap;
+    .column_to_row {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 

@@ -253,6 +253,11 @@ section::-webkit-scrollbar {
     flex-direction: row;
 }
 
+.column_to_row2 {
+    display: flex;
+    flex-direction: row;
+}
+
 figure {
     display: flex;
     flex-direction: column;
@@ -322,6 +327,32 @@ footer {
     position: relative;
 }
 
+.about_us_img {
+    margin-left: 10px;
+    width: 470px;
+    height: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.about_us {
+    display: flex;
+    justify-content: center;
+}
+
+.about_us_titel {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.length_fix {
+    width: 50%;
+}
+
+.center_to_else {
+    display: flex;
+    justify-content: flex-start;
+}
+
 
 /* ------content end----------- */
 
@@ -381,6 +412,9 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .about_us_img {
+        display: none;
     }
 }
 
